@@ -1,27 +1,30 @@
+[<img src="https://github.com/hkdeven/AlliedBuildings.com/blob/master/ASB_Logo_Black_Horizontal%202.png?raw=true" align="right"/>](http://alliedbuildings.com)
+
 # ALLIED BUILDINGS WEBSITE
 
-[<img src="https://github.com/hkdeven/AlliedBuildings.com/blob/master/ASB_Logo_Black_Horizontal%202.png?raw=true" align="right"/>](http://alliedbuildings.com)
+This repository contains all the front end code for the current [alliedbuildings.com][1] website and the toolset required to build and deploy it.
+
+----------------
 
 # Overview
 
 1.  [Tech Stack](#tech-stack)
 1.  [Initial Setup](#initial-setup)
-    1.  [Child Themes](#always-use-a-child-theme)
-    1.  [Version Control](#version-control)
+    -  [Child Themes](#always-use-a-child-theme)
+    -  [Version Control](#version-control)
 1.  [Animations](#animations)
 1.  [API Integrations](#api-integrations)
 1.  [Style Guidelines](#style-guidelines)
 1.  [Contributions](#contributions)
 1.  [About Allied](#about-us)
 
----
-
-
-This repository contains all the front end code for the current [alliedbuildings.com][1] website and the toolset required to build and deploy it.
+----------------
 
 # TECH STACK
 
 At the moment we are using a WordPress platform and the standard combination of PHP, HTML, CSS, and JavaScript.  Since we are moving from a site built on REACT, REDUX, and WEBPACK, we are eagerly looking at ways to integrate and make use of previous ES6 code blocks. **[Suggestions are welcomed!][2]** :heart_eyes:    
+
+Obviously, switching from a one-page application to WordPress we were concerned about performance.
 
 [<img src="https://raw.githubusercontent.com/hkdeven/Be-Constructive/master/top-btn.jpg" align="right"/>][10]
 
@@ -33,11 +36,7 @@ We won't bore you with exact step-by-step details for setting up a site on WordP
 
 :construction: **INSERT LINK TO FULL WALKTHROUGH HERE** :construction:    
 
-[<img src="https://raw.githubusercontent.com/hkdeven/Be-Constructive/master/top-btn.jpg" align="right"/>][10]
-
-----------------
-
-# ALWAYS USE A CHILD THEME
+### ALWAYS USE A CHILD THEME
 
 Before you start editing your pre-built theme, which is almost always the case with WordPress, [create a child theme][4]. Child themes are important, because they protect your original theme files. Also, when you edit a child theme, you can undo your changes quickly and efficiently. It’s the modular and bulletproof way to edit a WordPress theme.
 
@@ -46,11 +45,7 @@ You can run a copy of alliedbuildings.com's custom theme by simply uploading thi
 *Appearance → Editor*    
 <img src="https://thethemefoundry.com/wp-content/uploads/2014/02/select-edit-2.gif" align="center"/>
 
-[<img src="https://raw.githubusercontent.com/hkdeven/Be-Constructive/master/top-btn.jpg" align="right"/>][10]
-
-----------------
-
-# VERSION CONTROL
+### VERSION CONTROL
 
 :construction: **INSERT LINK TO FULL WALKTHROUGH HERE** :construction:
 
@@ -75,20 +70,20 @@ At Allied, we love **APIs**.  Here is a sampling of some of our favorites.
 |[Zoho CRM](#zoho-crm)|[Google Maps & Fusion Tables](#google-maps-and-fusion-tables)|[Calendly](#calendly-api)|
 |---------------|------------|------------------------------|---------------|-----------|
 
-# ZOHO CRM
+### ZOHO CRM
 
 Zoho CRM Docs:  [here][5]
 
 :construction: **MORE COMING SOON** :construction:
 
-# GOOGLE MAPS AND FUSION Tables
+###GOOGLE MAPS AND FUSION Tables
 
 Google Maps Docs:  [here][6]    
 Fusion Table Docs:  [here][7]
 
 :construction: **MORE COMING SOON** :construction:
 
-# CALENDLY API
+### CALENDLY API
 
 Calendly Docs:  [here][8]
 
@@ -112,7 +107,7 @@ To read up on our coding style and general contribution guide, have a look at [C
 
 ## LICENSE    
 
-[Alliedbuildings.com][1] website front end and tools Copyright (C) 2016 Allied Steel Buildings.
+[Alliedbuildings.com][1] website front end and tools Copyright :copyright: 2016 Allied Steel Buildings.
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the [GNU General Public License][9] for more details.
 

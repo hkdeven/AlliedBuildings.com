@@ -1,14 +1,40 @@
-# Contributing
+# CONTRIBUTING
 
-In general feel free to open issues / pull requests if you spot something – though we don't expect anyone outside of Allied to do free work for us. :laughing:
+You're awesome!  Here at Allied, we love contributers. :heart_eyes:
 
-If you're serious about contributing, please have a read of our guidelines below.
+<img src="https://media.giphy.com/media/3oxRmq2QcuORRdlKXS/giphy.gif" width="600" />
 
-## General
+## GENERAL
 
-Since we're operating on a WordPress platform, [their coding standards][4] will always take precedence.  Use [EditorConfig][1] in your editor of choice, whitespace flipping is naughty! :mask:
+Since we're operating on a WordPress platform, [their coding standards][4] will always take precedence.  See style guide below.  
 
-## JavaScript
+Use [EditorConfig][1] in your editor of choice, whitespace flipping is naughty! :mask:
+
+### Contributing Code
+
+#####Follow these steps:
+1.  Open a new or already existing issue
+2.  Fork the repo, create a branch, commit your fix
+3.  Push the branch, open a pull request
+4.  The core team reviews changes, provides feedback if necessary
+5.  If fix is approved core team merges the PR
+6.  :tada: :tada: :tada:
+
+---
+
+### Development workflow
+
+For small issues like updating a README or other Markdown files, quick pull request or even commit into `master` is acceptable. However, for most new code, we use the [GitHub flow](https://guides.github.com/introduction/flow/):
+
+![GitHub Flow](https://guides.github.com/activities/hello-world/branching.png)
+
+[<img src="https://raw.githubusercontent.com/hkdeven/Be-Constructive/master/top-btn.jpg" align="right"/>][8]
+
+---
+
+##STYLE GUIDE
+
+### JavaScript
 
 Use [WordPress JavaScript Coding Standards][5] as your baseline.
 
@@ -18,7 +44,7 @@ There's too much to list here, but in general we mostly agree with the [Airbnb E
 
 Simple words separated by hyphens as a preference to camelCasing or underscores.
 
-## CSS
+### CSS
 
 Use [WordPress CSS Coding Standards][5] as your baseline.
 
@@ -36,7 +62,7 @@ Try to avoid anything more than a selector nested within an already nested selec
     font-size: 16px;
 
     span {
-      font-weight: bold;
+        font-weight: bold;
     }
   }
 }
@@ -76,9 +102,30 @@ Each CSS file should have the following at the top:
 
 If you really need them, then go bananas ![image](http://www.sherv.net/cm/emo/funny/2/banana.gif) but document extensively.
 
+---
+
+## CODE OF CONDUCT
+
+Above all else, be cool.  Follow the [Open Source Code of Conduct][7].    
+
+:cherry_blossom: :v: :octocat:
+
+[<img src="https://raw.githubusercontent.com/hkdeven/Be-Constructive/master/top-btn.jpg" align="right"/>][8]
+
+---
+
+# ABOUT US
+
+[<img src="https://github.com/hkdeven/AlliedBuildings.com/blob/master/ASB_Logo_Black_Horizontal%202.png?raw=true" align="right"/>][9]
+
+[Allied][9] is a global leader in steel construction, developing solutions for every industry. From aviation to warehouses and everything in between, trust [Allied][9] to be with you all the way. The names and logos for Allied are trademarks of [Allied Steel Buildings, Inc.][9]   
+
 [1]: http://editorconfig.org/
 [2]: https://github.com/airbnb/javascript
 [3]: https://github.com/Khan/style-guides/blob/master/style/react.md
 [4]: https://make.wordpress.org/core/handbook/best-practices/coding-standards/
 [5]: https://make.wordpress.org/core/handbook/best-practices/coding-standards/css/
 [6]: https://make.wordpress.org/core/handbook/best-practices/coding-standards/javascript/
+[7]: http://todogroup.org/opencodeofconduct/
+[8]: https://github.com/hkdeven/AlliedBuildings.com/blob/master/CONTRIBUTING.md
+[9]: http://alliedbuildings.com/
