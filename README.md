@@ -121,7 +121,7 @@ This program is free software: you can redistribute it and/or modify it under th
 
 [Allied][1] is a global leader in steel construction, developing solutions for every industry. From aviation to warehouses and everything in between, trust [Allied][1] to be with you all the way. The names and logos for Allied are trademarks of [Allied Steel Buildings, Inc.][1]     
 
-We love open source software. :octocat: :heart:
+We love open source. :octocat: :heart:
 
 [1]: http://alliedbuildings.com/
 [2]: ./CONTRIBUTING.md
