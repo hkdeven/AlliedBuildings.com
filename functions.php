@@ -8,7 +8,7 @@ add_action( 'wp_enqueue_scripts', 'theme_gsap_script' );
 
 function my_theme_enqueue_styles() {  // This loads the js from the parent theme 'Blade' - AFTER all other js listed here
 
-    $parent_style = 'parent-style';
+    $parent_style = 'parent-style'; // update parent theme name - Blade?
 
     wp_enqueue_style( $parent_style, get_template_directory_uri() . '/style.css' );
     wp_enqueue_style( 'child-style',
