@@ -12,3 +12,4 @@ body {
 	unicode-bidi: embed;
 }
 */
+@import url('../blade/rtl.css');
