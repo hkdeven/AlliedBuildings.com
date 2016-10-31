@@ -3,7 +3,7 @@
 Template Name: International
 */
 ?>
-<?php get_header( 'basic' ); ?>
+<?php get_header(); ?>
 
 <?php the_post(); ?>
 		<!-- CONTENT -->
@@ -17,15 +17,11 @@ Template Name: International
 						<div id="page-<?php the_ID(); ?>" <?php post_class(); ?>>
 							<?php the_content(); ?>
 						</div>
-						<!-- END PAGE CONTENT -->
-
 					</div>
 				</div>
-				<!-- END MAIN CONTENT -->
 			</div>
 		</div>
-		<!-- END CONTENT -->
 
-<?php get_footer( 'basic' );
+<?php get_footer();
 
 //Omit closing PHP tag to avoid accidental whitespace output errors.

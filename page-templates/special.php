@@ -3,11 +3,25 @@
 Template Name: Special
 */
 ?>
-<?php get_header( 'basic' ); ?>
+<?php get_header(); ?>
 
 <?php the_post(); ?>
-<?php blade_grve_print_header_feature(); ?>
+		<!-- CONTENT -->
+		<div id="grve-content" class="clearfix">
+			<div class="grve-content-wrapper">
+				<!-- MAIN CONTENT -->
+				<div id="grve-main-content">
+					<div class="grve-main-content-wrapper clearfix">
 
-<?php get_footer( 'basic' );
+						<!-- PAGE CONTENT -->
+						<div id="page-<?php the_ID(); ?>" <?php post_class(); ?>>
+							<?php the_content(); ?>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+<?php get_footer();
 
 //Omit closing PHP tag to avoid accidental whitespace output errors.

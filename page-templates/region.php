@@ -6,31 +6,22 @@ Template Name: Region
 <?php get_header(); ?>
 
 <?php the_post(); ?>
+		<!-- CONTENT -->
+		<div id="grve-content" class="clearfix">
+			<div class="grve-content-wrapper">
+				<!-- MAIN CONTENT -->
+				<div id="grve-main-content">
+					<div class="grve-main-content-wrapper clearfix">
 
-			<!-- SIDE AREA -->
-			<?php
-				$grve_sidearea_data = blade_grve_get_sidearea_data();
-				blade_grve_print_side_area( $grve_sidearea_data );
-			?>
-			<!-- END SIDE AREA -->
+						<!-- PAGE CONTENT -->
+						<div id="page-<?php the_ID(); ?>" <?php post_class(); ?>>
+							<?php the_content(); ?>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-			<!-- HIDDEN MENU -->
-			<?php blade_grve_print_hidden_menu(); ?>
-			<!-- END HIDDEN MENU -->
+<?php get_footer();
 
-			<!-- CART AREA -->
-			<?php blade_grve_print_cart_area(); ?>
-			<!-- END CART AREA -->
-
-			<?php blade_grve_print_search_modal(); ?>
-			<?php blade_grve_print_form_modals(); ?>
-			<?php blade_grve_print_language_modal(); ?>
-			<?php blade_grve_print_social_modal(); ?>
-
-		</div> <!-- end #grve-theme-wrapper -->
-
-		<?php wp_footer(); // js scripts are inserted using this function ?>
-
-	</body>
-
-</html>
+//Omit closing PHP tag to avoid accidental whitespace output errors.
