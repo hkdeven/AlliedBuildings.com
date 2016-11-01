@@ -15,7 +15,7 @@ Template Name: FAQ
 
 						<!-- PAGE CONTENT -->
 						<div id="page-<?php the_ID(); ?>" <?php post_class(); ?>>
-							<?php the_content(); ?>
+							<!-- <?php the_content(); ?> -->
 							<!-- PAGE CONTENT -->
 <!-- <div id="page-177" class="post-177 page type-page status-publish hentry"> -->
 <div class="grve-section grve-fullwidth-background grve-bg-none">  <div class="grve-container">    <div class="grve-row grve-bookmark">
