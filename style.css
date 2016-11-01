@@ -9,6 +9,11 @@
  Text Domain:  blade
  Domain Path:  /languages/
  Tags:         responsive-layout
- License:
- License URI:
 */
+
+/******* Main Menu *******/
+
+/* This removes underline on hover */
+#grve-main-header #grve-main-menu.grve-menu-type-underline .grve-wrapper > ul > li > a span:after, #grve-main-header #grve-main-menu.grve-menu-type-underline .grve-wrapper > ul > li:hover > a span:after {
+  background-color: rgba(0,0,0,0) !important;
+}
