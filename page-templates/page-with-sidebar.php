@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Region
+Template Name: Page with Side Bar
 */
 ?>
 <?php get_header(); ?>

@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Project
+Template Name: Page without Side Bar
 */
 ?>
 <?php get_header(); ?>

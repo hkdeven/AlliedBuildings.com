@@ -18,3 +18,22 @@
 #grve-main-header #grve-main-menu.grve-menu-type-underline .grve-wrapper > ul > li:hover > a span:after {
   background-color: rgba(0,0,0,0) !important;
 }
+
+/******* Footer *******/
+
+.main-footer-links a {
+  color: #ffffff;
+  font-size: 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.main-footer-links ul {
+list-style: none;
+}
+
+.main-footer-links a:after,
+.main-footer-links a:hover {
+  color: #fcd62a;
+}
