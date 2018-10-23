@@ -68,7 +68,7 @@ Future development will include some spiffy-looking callout animations.
 At Allied, we love **APIs**.  Here is a sampling of some of our favorites.
 
 |[Zoho CRM](#zoho-crm)|[Google Maps & Fusion Tables](#google-maps-and-fusion-tables)|[Calendly](#calendly-api)|
-|---------------|------------|------------------------------|---------------|-----------|
+|---------------|---------------|-----------|
 
 ### ZOHO CRM
 
@@ -76,7 +76,7 @@ Zoho CRM Docs:  [here][5]
 
 :construction: **MORE COMING SOON** :construction:
 
-###GOOGLE MAPS AND FUSION Tables
+### GOOGLE MAPS AND FUSION Tables
 
 Google Maps Docs:  [here][6]    
 Fusion Table Docs:  [here][7]
