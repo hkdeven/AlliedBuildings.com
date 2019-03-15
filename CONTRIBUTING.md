@@ -12,7 +12,7 @@ Use [EditorConfig][1] in your editor of choice, whitespace flipping is naughty! 
 
 ### Contributing Code
 
-#####Follow these steps:
+##### Follow these steps:
 1.  Open a new or already existing issue
 2.  Fork the repo, create a branch, commit your fix
 3.  Push the branch, open a pull request
@@ -32,7 +32,7 @@ For small issues like updating a README or other Markdown files, quick pull requ
 
 ---
 
-##STYLE GUIDE
+## STYLE GUIDE
 
 ### JavaScript
 
